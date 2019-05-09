@@ -78,6 +78,7 @@ namespace SpotCam
 
         internal void HandleConnection()
         {
+            var i = 0;
             if (!isConnected)
             {
                 if (OnDisconnecting != null)
