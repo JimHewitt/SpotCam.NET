@@ -25,6 +25,7 @@ namespace SpotCam
         /// <summary>
         /// Unique for every camera on a single computer system.
         /// Not globally unique.
+        /// 05-09-2019
         /// </summary>
         public UInt64 DeviceUID { get { return baseData.DeviceUID; } }
 
